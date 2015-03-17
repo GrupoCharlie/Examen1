@@ -1,0 +1,124 @@
+
+
+/*Element Selectors*/
+
+body{
+	margin:5px 15% 5px 15%;
+	font-family: "Times New Roman", Times, serif;
+	color:black;
+	font-size: 12px;
+	max-width: 920px;
+	width:920px;
+}
+
+header{
+	width: 55%;
+	float: left;
+}
+
+h1{
+	font-size:4em;
+	font-weight: bold;
+	margin: 0px;
+}
+
+body nav{	
+	width: 45%;
+	float: left;
+	color: blue;
+	text-align: right;
+	margin-top: 0.5%;
+	font-size:1.4em;
+}
+
+
+ul{
+ 	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+	border-right: 2px solid black;
+	text-align: center;
+}
+
+nav ul li a{
+	 margin: 0% 2% 0% 2%;
+}
+
+article{
+	float: left;
+	width: 100%;
+	text-align: justify;
+}
+
+article section img{
+	width:100%;
+	height:300px;
+}
+
+h2{
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+span{
+	color:red;
+}
+
+h3{
+	color:blue;
+}
+
+h4{
+	color:green;
+}
+
+h5{
+	color:red;
+}
+
+
+footer{
+	clear: both;
+	width:100%;
+	text-align:center;
+	height:20%;
+	border-top:2px solid black;
+}
+
+footer nav{
+	width:100%;
+	text-align: center;
+}
+
+/*Class, Attribute and Pseudo Selectors*/
+
+
+body nav ul li a.active{
+	 text-decoration: none;
+	 padding-right: 5px;
+	 color:black;
+}
+
+body nav ul li.last{
+	 border: none;
+}
+
+article section section.main{
+	width:55%;
+	float:left;
+}
+
+article section section.sub{
+	width: 40%;
+	margin-left: 5%;
+	float: left;
+}
+
+article section section p.subP{
+	border: 1px solid black;
+	background-color: orange;
+	margin:1px;
+}
+

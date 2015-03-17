@@ -1,37 +1,41 @@
 <html>
 <head>
 	<title>Examen 1 </title>
-	<link rel="stylesheet" type="text/css" media="all" href="Styles/normalize.css">
-	<link rel="stylesheet" type="text/css" media="all" href="Styles/style.css">
-	<link rel="stylesheet" type="text/css" media="print" href="Styles/print.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+	<link rel="stylesheet" type="text/css" media="all" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" media="all" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" media="all" href="styles/style_ie.css">
+	<link rel="stylesheet" type="text/css" media="print" href="styles/print.css">
 </head>
 <body>
 	<header><h1>UNA Web Charlie</h1></header>
-	<nav class="menu1">
+	<nav>
 		<ul>
-		 <li> <a href="#">HOME</a></li>
-		 <li> <a href="#">ABOUT</a></li>
-		 <li> <a href="#">COURSES</a></li>
-		 <li> <a href="#">CONTACT</a></li>
+			 <li> <a class="active" href="#">HOME</a></li>
+			 <li> <a href="#">ABOUT</a></li>
+			 <li> <a href="#">COURSES</a></li>
+			 <li class="last"> <a href="#">CONTACT</a></li>
 		</ul>
 	</nav>
 	
 	<article> 
 		<section>
-			<img src="http://goo.gl/49q6K8" widht=920 height=300>
-			<section id="main">
+			<img src="http://goo.gl/49q6K8">
+			<section class="main">
 				<h2>Main Section</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem, feugiat eu dignissim nec, aliquet non ex. Fusce porttitor ut massa id volutpat. Phasellus viverra nisl a tellus lobortis, sit amet ultricies mauris facilisis. Mauris orci augue, sagittis egestas condimentum nec, consequat quis augue. Praesent faucibus vehicula ullamcorper. Vestibulum commodo malesuada semper. Vivamus aliquam risus quis magna ornare, lacinia accumsan sapien volutpat. Aenean a est tincidunt urna tincidunt vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum a ullamcorper lorem. Praesent congue nunc augue, vitae suscipit lectus accumsan gravida. Nulla neque lorem, facilisis sed odio sit amet, vestibulum rhoncus justo. Etiam sollicitudin augue sed eleifend vulputate. Pellentesque massa risus, interdum quis diam eu, sagittis dictum risus. Nulla sit amet suscipit velit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem, feugiat eu dignissim nec, aliquet non ex. Fusce porttitor ut massa id volutpat. Phasellus viverra nisl a tellus lobortis, sit amet ultricies mauris facilisis. Mauris orci augue, sagittis egestas condimentum nec, consequat quis augue. Praesent faucibus vehicula ullamcorper. Vestibulum commodo malesuada semper. Vivamus aliquam </p>
+				<p>risus quis magna ornare, lacinia accumsan sapien volutpat. Aenean a est tincidunt urna tincidunt vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum a ullamcorper lorem. Praesent congue nunc augue, vitae suscipit lectus accumsan gravida. Nulla neque lorem, facilisis sed odio sit amet, vestibulum rhoncus justo. Etiam sollicitudin augue sed eleifend vulputate. Pellentesque massa risus, interdum quis diam eu, sagittis dictum risus. Nulla sit amet suscipit velit.</p>
 			</section>
-			<section id="subsection">
+			<section class="sub">
 				<h3>Sub-section</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem</p>
+				<p class="subP">A <b>paraghaph</b> of <span>text</span> with an <a href="">unassgment link</a> <br> A second <u>row</u> of <s>text</s>  with a <a href="#">web link</a>
+				</p>
 				<section >
 					<h4>Sub-sub-section</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam veli</p>
 					<section >
 						<h5>Sub-sub-sub-Section</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem</p>
+							<p class="ie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit lorem</p>
 					</section>
 				</section>
 			</section>
@@ -39,14 +43,16 @@
 		</section>
 	</article>
 	<footer>
-		<nav class="nfoot">
-			<li> <a href="#">HOME</a></li>
-			<li> <a href="#">ABOUT</a></li>
-			<li> <a href="#">COURSES</a></li>
-			<li> <a href="#">CONTACT</a></li>
+		<nav>
+			<ul>
+				<li> <a class="active" href="#">HOME</a></li>
+				<li> <a href="#">ABOUT</a></li>
+				<li> <a href="#">COURSES</a></li>
+				<li class="last"> <a href="#">CONTACT</a></li>
+			</ul>
 		</nav>
-		<div class="dfoot">
-			<span>Copyright &#169; 2015 Curso de Programaci&oacute;n Web</span>
+		<div>
+			<p>Copyright &#169; 2015 Curso de Programaci&oacute;n Web</p>
 		<div>
 	</footer>
 </body>
