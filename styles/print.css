@@ -5,8 +5,22 @@
 	h1{width:100%;}
 
 	nav { display:none;}
+	
+	article{width:100%;}
+	
+	p{width:100%;}
 
 	section{width:100%;}
+	
+	section section{width:100%;}
+	
+	.main{width:100%;}
 
 	article section img{display:none;}
+	
+	article section section p.subP{
+	border: none;
+	background-color: none;
+	margin:1px;
+}
 }
