@@ -1,6 +1,7 @@
 html{
 	padding-left:10%;
 	padding-right:10%;
+	font-size:1em;
 }
 body{
 	height:100%;
@@ -52,7 +53,6 @@ aside{
 	width:50%;
 }
 footer{
-	border-top: solid black 2px;
 	float:left;
 	width:100%;
 }
